@@ -1,0 +1,34 @@
+.inline{
+    display: inline;
+    background-color: azure;
+    
+}
+.block{
+    display: block;
+    background-color: black;
+}
+
+.inline-block{
+    display: inline-block;
+    width: 500px;
+    background-color: chartreuse;
+}
+
+.none{
+    display: none;
+}
+
+.msg{
+    display: none;
+    background-color: aquamarine;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+    color: brown;
+
+}
+
+.hover_button:hover + .msg{
+    display: block;
+
+}

@@ -1,0 +1,23 @@
+
+.grid-container{
+    background-color: currentColor;
+    display: grid;
+}
+
+
+
+
+
+
+
+
+
+
+.grid-item{
+    background-color: aqua;
+    border: 2px solid brown;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    margin: 5px;
+}
