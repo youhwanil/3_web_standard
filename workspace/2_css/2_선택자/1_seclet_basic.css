@@ -1,22 +1,24 @@
-/* 전체 요소를 선택하는 선택자*/
-* {
-    /*color: blueviolet;*/
+/* 전체 요소를 선택하는 선택자 */
+/* * {
+    color:violet;
+} */
 
-    div{
-        color: aqua;
-    }
+div {
+    color:coral;
+}
 
-    #ids {
-        color: azure;
-    }
+#idSelector {
+    color: red;
+}
 
-    .classSelector{
-        background-color: azure;
-    }
-    a[href] {
-        background-color: brown;
-    }
-    a[target="_blank"]{
-        background-color: blue;
-    }
+.classSelector {
+    background-color: aqua;
+}
+
+a[href] {
+    background-color: red;
+}
+
+a[target="_blank"] {
+    background-color: yellow;
 }
